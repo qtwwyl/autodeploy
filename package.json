@@ -1,0 +1,24 @@
+{
+  "name": "autodeployne",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "deploy": "./bin/autodeploy.js"
+  },
+  "keywords": [
+    "deploy",
+    "automation"
+  ],
+  "author": "qtwwyl",
+  "license": "ISC",
+  "devDependencies": {
+    "puppeteer": "^1.4.0"
+  }
+}
